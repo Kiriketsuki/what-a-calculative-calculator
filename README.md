@@ -1,0 +1,1 @@
+This is a project from The Odin Project, where I try to make a calculator via Javascript. From The Odin Project's [curriculum](https://www.theodinproject.com/courses/web-development-101/lessons/calculator)
