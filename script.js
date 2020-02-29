@@ -234,3 +234,13 @@ equalsButton.addEventListener("click", (e) => {
     updateScreen();
         
 })
+
+function operate(str) {
+    var numbers = [];
+    var operations = [];
+    var toReturn = "";
+
+    numbers = str.split(/[x/+-]/);
+    operations = str.split(/[1234567890.]/);
+    console.log(operations);
+}

@@ -3,6 +3,7 @@ html {
     text-align: center;
     vertical-align: baseline;
     background-color: #ffdbe2;
+    transform: scale(0.80);
 }
 
 h1 {
@@ -21,6 +22,10 @@ h2 {
 h3 {
     font-size: 15px;
 }
+
+/* main { */
+    /* transform: scale(0.75); */
+/* } */
 
 #outerBody {
     width: 700px;
@@ -80,6 +85,12 @@ h3 {
     vertical-align: baseline;
     background-color: #dbe9ff;
     margin-right: 10px;
+    transition-duration: 0.3s;
+    transition-property: transform;
+}
+
+.button:hover {
+    transform: scale(1.05);
 }
 
 .operationButton {
@@ -96,11 +107,23 @@ h3 {
     margin-right: 10px;
     color: black;
     text-shadow: 5px 5px 3px #e6de98;
+    transition-duration: 0.3s;
+    transition-property: transform;
+}
+
+.operationButton:hover {
+    transform: scale(1.05);
 }
 
 .equalsButton {
     width: 500px;
     border-radius: 25px;
+    transition-duration: 0.3s;
+    transition-property: transform;
+}
+
+.equalsButton:hover {
+    transform: scale(1.05);
 }
 
 #rowFive {
